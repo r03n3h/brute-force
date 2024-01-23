@@ -1,8 +1,8 @@
 #!/bin/bash
 
 # Create worlist form website
-# cewl http://wgel.thm/ > wordlist  
-# cewl http://wgel.thm/sitemap >> wordlist  
+# cewl --lowercase http://wgel.thm/ > wordlist  
+# cewl --lowercase http://wgel.thm/sitemap >> wordlist  
 
 ssh_host="wgel.thm"
 ssh_port=22
