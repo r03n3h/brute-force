@@ -1,11 +1,16 @@
 #!/bin/bash
 
+# Create worlist form website
+# cewl http://wgel.thm/ > wordlist  
+# cewl http://wgel.thm/sitemap >> wordlist  
+
 ssh_host="wgel.thm"
 ssh_port=22
 private_key_path="id_rsa"
 
 #userlist="/usr/share/wordlists/seclists/Usernames/top-usernames-shortlist.txt"
-userlist="/usr/share/wordlists/seclists/Usernames/cirt-default-usernames.txt"
+#userlist="/usr/share/wordlists/seclists/Usernames/cirt-default-usernames.txt"
+userlist="wordlist"
 
 function try_ssh {
     username=$1
